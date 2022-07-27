@@ -80,10 +80,19 @@ p{
     margin-bottom: 20px;
     box-shadow: 10px 10px 20px var(--Pale-blue);
 }
+.payment-btn:hover{
+    background-color: var(--Desaturated-blue);
+}
+.change-btn:hover{
+    color: var(--Desaturated-blue);
+}
 .cancel-btn{
     margin-bottom: 25px;
     background-color: transparent;
     border: none;
     color: var(--Desaturated-blue);
     margin-left: 120px;
+}
+.cancel-btn:hover{
+    color: var(--Dark-blue);
 }
