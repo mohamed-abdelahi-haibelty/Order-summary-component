@@ -40,4 +40,30 @@ p{
     color:var(--Desaturated-blue);
     margin-bottom: 20px;
     line-height: 1.6;
+    font-size: 16px;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.anual-plan h4{
+    color: var(--Dark-blue);
+    margin-bottom: 5px;
+}
+.anual-plan{
+    color: var(--Desaturated-blue);
+}
+.change-btn{
+    color: var(--Dark-blue);
+    background-color: transparent;
+    border:none;
+    text-decoration: underline;
 }
