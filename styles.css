@@ -67,3 +67,20 @@ p{
     border:none;
     text-decoration: underline;
 }
+.payment-btn{
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 70px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px var(--Pale-blue);
+}
+.cancel-btn{
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: none;
+    color: var(--Desaturated-blue);
+    margin-left: 120px;
+}
