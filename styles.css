@@ -5,3 +5,19 @@
 --Pale-blue: hsl(225, 100%, 94%);
 --Bright-blue: hsl(245, 75%, 52%);
 }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+   background-color: var(--Pale-blue);
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: var(--Very-pale-blue);
+}
