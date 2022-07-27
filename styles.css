@@ -21,3 +21,23 @@ body{
     border-radius: 15px;
     background-color: var(--Very-pale-blue);
 }
+.image{
+    width:337px;
+    margin-bottom: 20px;
+}
+.image img{
+    width: 100%;
+}
+.text{
+    text-align: center;
+}
+
+h2{
+    color:var(--Dark-blue);
+    margin-bottom: 20px;
+}
+p{
+    color:var(--Desaturated-blue);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
